@@ -1,6 +1,4 @@
 from rest_framework import serializers
-
-import super_types
 from .models import Super
 
 class SuperSerializer(serializers.ModelSerializer):
